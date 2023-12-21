@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4384a8848f69a4efb8e0cccd642689fc, type: 3}
+  m_Name: FrogDialogueTestGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: FrogDialogueTest
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 214e7a8e-470c-4f27-aa43-3128cec4190c
+    <Name>k__BackingField: Cutscene1
+    <Position>k__BackingField: {x: 140.5, y: -118}
+  - <ID>k__BackingField: 14c872c7-5ed8-4067-89e7-e139cb83c376
+    <Name>k__BackingField: TreeCutscene
+    <Position>k__BackingField: {x: 146, y: 177.5}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: c56ece80-cd3e-4f8f-9f17-c8f69fac4bb6
+    <Name>k__BackingField: D2
+    <Text>k__BackingField: Frog dialogue 2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 05bb48b3-480b-4488-b6d2-a3bbe097ec9b
+    <GroupId>k__BackingField: 214e7a8e-470c-4f27-aa43-3128cec4190c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 459.5, y: -59.5}
+  - <ID>k__BackingField: 05bb48b3-480b-4488-b6d2-a3bbe097ec9b
+    <Name>k__BackingField: D3
+    <Text>k__BackingField: Frog dialogue 3
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 
+    <GroupId>k__BackingField: 214e7a8e-470c-4f27-aa43-3128cec4190c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 749, y: -59.5}
+  - <ID>k__BackingField: 5de577c3-9495-4309-b134-951ae2f0ca45
+    <Name>k__BackingField: D1
+    <Text>k__BackingField: Frog dialogue 1
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: c56ece80-cd3e-4f8f-9f17-c8f69fac4bb6
+    <GroupId>k__BackingField: 214e7a8e-470c-4f27-aa43-3128cec4190c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 165.5, y: -58.5}
+  - <ID>k__BackingField: 4575f525-455f-4036-bccf-3196df365e61
+    <Name>k__BackingField: D21
+    <Text>k__BackingField: Thank you! I will definitely pass on your congratulations!
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 
+    <GroupId>k__BackingField: 14c872c7-5ed8-4067-89e7-e139cb83c376
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 178, y: 454}
+  - <ID>k__BackingField: c8483d01-0403-436a-83b1-dd4b170a267c
+    <Name>k__BackingField: D31
+    <Text>k__BackingField: Hey Raccoon/Badger! Help the old man! Bring the gift over
+      there!
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 
+    <GroupId>k__BackingField: 14c872c7-5ed8-4067-89e7-e139cb83c376
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 180.5, y: 673.5}
+  - <ID>k__BackingField: 32513fc9-0cf2-4f3e-b2e9-1ec1ef5c5feb
+    <Name>k__BackingField: D1
+    <Text>k__BackingField: Mister Tree, what a surprise! Is this for the junior?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 
+    <GroupId>k__BackingField: 14c872c7-5ed8-4067-89e7-e139cb83c376
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 171, y: 236}
+  <OldGroupNames>k__BackingField:
+  - Cutscene1
+  - TreeCutscene
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Cutscene1
+      Value:
+      - D2
+      - D3
+      - D1
+    - Key: TreeCutscene
+      Value:
+      - D21
+      - D31
+      - D1

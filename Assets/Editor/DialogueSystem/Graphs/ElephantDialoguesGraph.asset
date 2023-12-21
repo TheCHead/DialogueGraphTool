@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4384a8848f69a4efb8e0cccd642689fc, type: 3}
+  m_Name: ElephantDialoguesGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: ElephantDialogues
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 383fecd7-4875-4b92-91ab-1da53ae8a4a5
+    <Name>k__BackingField: Cutscene1
+    <Position>k__BackingField: {x: 183.49998, y: -238}
+  - <ID>k__BackingField: 5f959134-7887-4af4-8336-c0e1b15f52ef
+    <Name>k__BackingField: Cutscene2
+    <Position>k__BackingField: {x: 191.99998, y: 45.50009}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: f3e36fbb-3d88-44d5-a66d-1f851a073919
+    <Name>k__BackingField: ED1
+    <Text>k__BackingField: Elephant dialogue1
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: f06f6f43-4021-41fd-a026-db73cb5719e0
+    <GroupId>k__BackingField: 383fecd7-4875-4b92-91ab-1da53ae8a4a5
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 208.5, y: -176}
+  - <ID>k__BackingField: f06f6f43-4021-41fd-a026-db73cb5719e0
+    <Name>k__BackingField: ED2
+    <Text>k__BackingField: Elephant dialogue2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 
+    <GroupId>k__BackingField: 383fecd7-4875-4b92-91ab-1da53ae8a4a5
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 554.5, y: -179.5}
+  - <ID>k__BackingField: 82dec1cd-b43e-40bc-996a-528d68a8be62
+    <Name>k__BackingField: ED3
+    <Text>k__BackingField: ED3
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 70bf554e-1d3e-4d52-a614-98c250fbfc49
+    <GroupId>k__BackingField: 5f959134-7887-4af4-8336-c0e1b15f52ef
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 217, y: 111.5}
+  - <ID>k__BackingField: 70bf554e-1d3e-4d52-a614-98c250fbfc49
+    <Name>k__BackingField: ED4
+    <Text>k__BackingField: ED4
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeId>k__BackingField: 
+    <GroupId>k__BackingField: 5f959134-7887-4af4-8336-c0e1b15f52ef
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 538.5, y: 104}
+  <OldGroupNames>k__BackingField:
+  - Cutscene1
+  - Cutscene2
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Cutscene1
+      Value:
+      - ED1
+      - ED2
+    - Key: Cutscene2
+      Value:
+      - ED3
+      - ED4
